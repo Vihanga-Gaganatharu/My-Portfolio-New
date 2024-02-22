@@ -939,3 +939,85 @@ span {
 img {
     border-radius: 20px;
 }
+/*skill section ---------------------------------------------------------------------------------------------------*/
+.language-tools {
+    width: 100%;
+    height: 70vh;
+}
+
+.language-tools>h4 {
+    text-align: center;
+    color: #164e5f;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.language-tools>h1 {
+    color: #03fdfd;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.language-tools>hr {
+    width: 20vw;
+    height: 3px;
+    background: #0ad9fd;
+}
+
+.language-tools>div:last-child {
+    width: 90%;
+    height: 60vh;
+    margin: auto;
+    position: relative;
+    top: 5vh;
+}
+
+.language-tools>div:last-child>svg line {
+    stroke: rgb(255, 255, 255);
+    stroke-width: 2;
+    transition-duration: 2s;
+    animation-name: line-animate;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 3s;
+}
+
+@keyframes line-animate {
+    0% {
+        stroke: rgb(139, 131, 119);
+    }
+
+    100% {
+        stroke: rgb(255, 0, 0);
+    }
+}
+
+
+.language-tools>div:last-child>svg ellipse {
+    animation-name: ellipse-anim;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 5s;
+    position: relative;
+}
+
+@keyframes ellipse-anim {
+    0% {
+        fill: #affcff;
+        transform: rotateY(5deg);
+    }
+
+    50% {
+        fill: rgb(81, 252, 252);
+    }
+
+    100% {
+        fill: #00ffff;
+    }
+}
