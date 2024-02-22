@@ -561,7 +561,7 @@ span {
     width: 100%;
     padding: 1.5rem;
     font-size: 1.6rem;
-    color: var(--text-color);
+    color: var(--main-color);
     background: var(--bg-color);
     border-radius: .8rem;
     margin: .7rem 0;
@@ -587,7 +587,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 7%;
-    background: var(--main-color);
+    background: var(--text-color);
 }
 
 .footer-text p {
