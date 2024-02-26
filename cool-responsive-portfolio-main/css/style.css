@@ -544,6 +544,8 @@ span {
     padding: 1rem;
     border-radius: 2rem;
     overflow: hidden;
+    width: 600px;
+    height: 200px;
 }
 
 .testimonial-content .testimonial-slide {
@@ -735,11 +737,16 @@ span {
     width: 100%;
     padding: 1.5rem;
     font-size: 1.6rem;
-    color: var(--main-color);
-    background: var(--bg-color);
+    color: var(--containerText-color);
+    background: var(--shadow-color);
     border-radius: .8rem;
+    border-color: #00ff62;
     margin: .7rem 0;
     box-shadow: 0 .1rem .5rem var(--shadow-color);
+    transform: scale(0.5s);
+}
+.contact form textarea:hover{
+    transition: ease-in-out;
 }
 .contact form .input-box input {
     width: 49%;
@@ -1163,7 +1170,7 @@ img {
 
 @keyframes line-animate {
     0% {
-        stroke: rgb(139, 131, 119);
+        stroke: rgb(0, 225, 255);
     }
 
     100% {
@@ -1182,12 +1189,12 @@ img {
 
 @keyframes ellipse-anim {
     0% {
-        fill: #affcff;
+        fill: #00ff62;
         transform: rotateY(5deg);
     }
 
     50% {
-        fill: rgb(81, 252, 252);
+        fill: rgb(0, 4, 255);
     }
 
     100% {
