@@ -12,7 +12,7 @@
 }
 
 :root {
-    --bg-color: #fdfdfd;
+    --bg-color: #ffffff;
     --text-color: #333;
     --main-color: #4ef3f9;
     --white-color: #ffffff;
@@ -53,6 +53,12 @@ body {
     z-index: 100;
     transition: .5s;
 }
+.header:hover{
+    filter: drop-shadow(0px 0px 3px var(--containerText-color));
+    
+    transform: scale(1.1);
+    transition: transform 0.8s ease;
+}
 
 .header.sticky {
     background: var(--bg-color);
@@ -63,8 +69,14 @@ body {
     width: 10%;
     margin-right: auto;
     left: -50px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
 
+.logo:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 3px var(--text-color));
+}
 .navbar a {
     position: relative;
     font-size: 1.7rem;
@@ -182,6 +194,8 @@ section {
     background: transparent;
     color: var(--main-color);
     border-color: var(--main-color);
+    transform: scale(1.2);
+    transition: transform 1.0s ease;
 }
 
 .home .profession-container {
@@ -630,112 +644,18 @@ span {
 }
 
 /*general life section ----------------------------------------------------------------------------------------------*/
-/* 
-.general-life-section {
-    width: 100%;
-    height: 100vh;
-    box-sizing: border-box;
+
+.image1{
+    
+    width: 500px;
+    height: 500px;
+}
+.image2{
+    align-items: left;
+    width: 700px;
+    height: 400px;
 }
 
-.general-life-section>h4 {
-    color: #162A5F;
-    font-family: 'PT Serif', serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-align: center;
-}
-
-.general-life-section>h1 {
-    color: #000;
-    text-align: center;
-    font-family: 'PT Serif', serif;
-    ;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 0;
-}
-
-.general-life-section>hr {
-    width: 22vw;
-    height: 3px;
-    background: #FD6E0A;
-}
-
-.general-life-section>section:nth-child(4) {
-    position: relative;
-    top: 5vh;
-    margin: auto;
-    display: grid;
-    width: 70%;
-    height: 70vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 5px;
-}
-
-.general-life-section>section div {
-    border: 1px solid orange;
-    border-radius: 20px;
-    transition-duration: 2s;
-}
-
-.general-life-section>section div:nth-child(1) {
-    grid-column: 1/2;
-    grid-row: 1/3;
-    background: url("../images/galle-my.jpeg");
-    background-size: cover;
-}
-
-.general-life-section>section div:nth-child(2) {
-    background: url("../images/glass-my.jpg");
-    background-size: cover;
-}
-
-.general-life-section>section div:nth-child(3) {
-    background: url("../images/edit.jpeg");
-    background-size: cover;
-}
-
-.general-life-section>section div:last-child {
-    background: url("../images/kottu-my.jpeg");
-    background-size: cover;
-}
-
-.general-life-section>section div:nth-child(6) {
-    grid-row: 1/4;
-    grid-column: 4/5;
-    background: url("../images/new-year-my.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.general-life-section>section div:nth-child(5) {
-    grid-row: 3/4;
-    grid-column: 1/3;
-    background: url("../images/group-my.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 30vh;
-}
-
-.general-life-section>section div:nth-child(4) {
-    grid-column: 2/4;
-    grid-row: 2/3;
-    background: url("../images/innovesta-my.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.general-life-section>section div:hover {
-    transition-duration: 2s;
-    box-shadow: 0 5px 30px 5px rgb(10, 180, 232);
-    width: 102%;
-    z-index: 20;
-} */
 
 /*Contact section ----------------------------------------*/
 
