@@ -17,7 +17,7 @@
     --main-color: #4ef3f9;
     --white-color: #ffffff;
     --shadow-color: rgba(0, 0, 0, .2);
-    --second-colour: rgb(155, 250, 245);
+    --second-colour: rgb(131, 251, 255);
 }
 
 *::selection {
@@ -28,7 +28,7 @@
 .dark-mode {
     --bg-color: #0b061f;
     --text-color: #fdfdfd;
-    --shadow-color: rgba(0, 0, 0, .7);
+    --shadow-color: rgba(0, 225, 255, 0.7);
 }
 
 html {
@@ -547,8 +547,8 @@ span {
 }
 
 .timeline-content:hover {
-    transform: scale(1.01);
-    box-shadow: 0 0 30px rgba(54, 54, 54, 0.582);
+    transform: scale(1.05);
+    box-shadow: 0 0 30px #72727294;
 }
 
 .timeline-content h3 {
