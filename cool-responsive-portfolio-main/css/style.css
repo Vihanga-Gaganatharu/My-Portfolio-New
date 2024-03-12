@@ -16,7 +16,7 @@
     --text-color: #333;
     --main-color: #4ef3f9;
     --white-color: #ffffff;
-    --shadow-color: rgba(0, 0, 0, .2);
+    --shadow-color: rgba(0, 207, 235, 0.877);
     --second-colour: rgb(131, 251, 255);
 }
 
@@ -219,7 +219,7 @@ section {
     animation: professionRotate 13s ease-out infinite;
 }
 
-@keyframes professionRotate {
+/* @keyframes professionRotate {
 
     0%,
     20% {
@@ -244,7 +244,7 @@ section {
     100% {
         transform: rotate(-360deg);
     }
-}
+} */
 
 .home .profession-box .profession {
     position: absolute;
@@ -641,17 +641,81 @@ span {
 }
 
 /*general life section ----------------------------------------------------------------------------------------------*/
+.image{
+    border: #01e9e9 2px solid;
+    margin: 20px;
+
+}
 
 .image1{
-    
     width: 500px;
-    height: 500px;
+    height: 400px;
+    transition: .5s ease;   
+}
+.image1:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px var(--shadow-color));    
 }
 .image2{
     align-items: left;
-    width: 700px;
+    width: 300px;
     height: 400px;
+    transition: .5s ease;
 }
+.image2:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px var(--shadow-color));    
+}
+.image3{
+    width: 640px;
+    height: 400px;
+    transition: .5s ease;
+}
+.image3:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px var(--shadow-color));    
+}
+.image4{
+    width: 900px;
+    height: 600px;
+    transition: .5s ease;
+}
+.image4:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px var(--shadow-color));    
+}
+.image5{
+    width: 600px;
+    height: 600px;
+    transition: .5s ease;
+}
+.image5:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px var(--shadow-color));    
+}
+.image6{
+    width: 400px;
+    height: 500px;
+    transition: .5s ease;
+}
+.image6:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px var(--shadow-color));    
+}
+.image7{
+    width: 1090px;
+    height: 500px;
+    transition: .5s ease;
+}
+.image7:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px var(--shadow-color));    
+}
+
+
+
+
+
 
 
 /*Contact section ----------------------------------------*/
