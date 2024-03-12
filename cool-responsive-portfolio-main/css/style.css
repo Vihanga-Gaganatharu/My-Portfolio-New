@@ -216,10 +216,10 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: professionRotate 13s ease-out infinite;
+    animation: professionRotate 10s ease-out infinite;
 }
 
-/* @keyframes professionRotate {
+@keyframes professionRotate {
 
     0%,
     20% {
@@ -244,7 +244,7 @@ section {
     100% {
         transform: rotate(-360deg);
     }
-} */
+}
 
 .home .profession-box .profession {
     position: absolute;
@@ -281,7 +281,7 @@ section {
 .home .profession-box .circle {
     width: 560px;
     height: 560px;
-    border: 3px solid var(--main-color);
+    border: 4px solid var(--main-color);
     border-radius: 50%;
     z-index: -1;
 }
@@ -303,7 +303,7 @@ section {
     bottom: 0;
     right: 40px;
     pointer-events: none;
-    max-width: 480px;
+    max-width: 490px;
     max-height: 100vh;
 }
 
