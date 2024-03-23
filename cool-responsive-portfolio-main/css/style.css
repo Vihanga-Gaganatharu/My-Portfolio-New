@@ -218,7 +218,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: professionRotate 10s ease-out infinite;
+    animation: professionRotate 30s ease-out infinite;
 }
 
 @keyframes professionRotate {
@@ -486,22 +486,23 @@ span {
 
 
 .timeline-item {
-    margin-bottom: 40px;
+    margin-top: 100px;
+    margin-bottom: 240px;
+    margin-left: -200px;
     width: 1500px;
     height: 200px;
     position: relative;
-    align-items: center;
 }
 
 
 
 .timeline-item:last-child {
     margin-bottom: 0;
-    left: 200px;
+    left: 100px;
 }
 
 .timeline-item:nth-child(odd) {
-    padding-right: calc(50% + 30px);
+    padding-right: calc(50% + 10px);
     text-align: right;
     border: #000000;
     border-radius: 30%;
@@ -509,7 +510,7 @@ span {
 }
 
 .timeline-item:nth-child(even) {
-    padding-left: calc(50% + 30px);
+    padding-left: calc(50% + 10px);
 }
 
 .timeline-dot {
@@ -517,15 +518,15 @@ span {
     width: 18px;
     background-color: var(--main-color);
     position: absolute;
-    left: calc(50% - 2px);
+    left: calc(50% - 12px);
     border-radius: 50%;
     top: 10px;
-    transform: scale(5px);
-    pointer-events: stroke;
+    transition: all 2ms ;
 }
 .timeline-dot:hover{
     filter: drop-shadow(0 0 10px var(--containerText-color));
     
+   
 }
 
 .timeline-topic {
@@ -614,6 +615,11 @@ span {
 .testimonial-slide h3 {
     font-size: 2.5rem;
     margin: 2rem 0;
+}
+.testimonial-slide h4{
+    font-size: 1.5rem;
+    margin-top: -10px;
+    margin-bottom: 30px;
 }
 
 .testimonial-slide p {
@@ -1177,11 +1183,11 @@ img {
 
 @keyframes line-animate {
     0% {
-        stroke: rgb(43, 255, 0);
+        stroke: rgb(0, 225, 255);
     }
 
     100% {
-        stroke: rgb(255, 0, 0);
+        stroke: rgb(0, 153, 255);
     }
 }
 
@@ -1196,15 +1202,15 @@ img {
 
 @keyframes ellipse-anim {
     0% {
-        fill: #2bff00;
+        fill: #00c1f1;
         transform: rotateY(5deg);
     }
 
     50% {
-        fill: rgb(255, 0, 0);
+        fill: rgb(4, 0, 255);
     }
 
     100% {
-        fill: #f700ff;
+        fill: #000000;
     }
 }
