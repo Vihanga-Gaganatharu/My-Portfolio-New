@@ -1075,7 +1075,7 @@ span {
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 455px) {
     html {
         font-size: 50%;
     }
@@ -1118,13 +1118,13 @@ span {
     }
 }
 
-@media (max-width: 365px) {
+@media (max-width: 360px) {
     .about-img img {
         width: 90vw;
     }
 }
 
-@media (max-width: 315px) {
+@media (max-width: 310px) {
     .home-content h1 {
         font-size: 4.5rem;
     }
