@@ -1080,7 +1080,7 @@ main.row{
     }
 
     .home {
-        padding: 0 3% 23rem;
+        /* padding: 0 3% 23rem; */
         justify-content: center;
         text-align: center;
     }
@@ -1162,7 +1162,7 @@ main.row{
     }
 
     .about {
-        flex-direction: column-reverse;
+        flex-direction: column;
         text-align: center;
     }
 
