@@ -515,7 +515,7 @@ main.row{
 .col .contents .box{
 	position: relative;
 	padding: 20px;
-	border: 1px solid #eaeaea;
+	border: 2px solid #00f7ff;
 	cursor: pointer;
 	transition: all 0.4s;
 	margin-bottom: 20px;
@@ -547,7 +547,7 @@ main.row{
 	color: var(--main-color);
 }
 .box h3:hover{
-    color: #0044ff;
+    color: #00a2ff;
 }
 .box p{
 	line-height: 1.2;
@@ -905,7 +905,7 @@ main.row{
         position: fixed;
         top: 0;
         left: 0;
-        width: 93%;
+        width: 100%;
         padding: 2rem 7%;
         background: transparent;
         display: flex;
