@@ -5,7 +5,7 @@ Welcome to my portfolio repository! This project showcases my work, skills, and 
 ## 🌐 Demo
 
 Check out the live demo of my portfolio website:  
-[Live Demo](https://http://orionwave.me/My-Portfolio-New/t)
+[Live Demo](http://orionwave.me/My-Portfolio-New/)
 
 Or clone the repository to run it locally:  
 [GitHub Repository](https://github.com/Vihanga-Gaganatharu/My-Portfolio-New.git)
