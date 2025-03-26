@@ -1,30 +1,37 @@
+# My Portfolio
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=500&size=60&pause=1000&center=true&vCenter=true&random=false&width=1200&height=80&lines=My+Portfolio" alt="Typing SVG" /></a>
+Welcome to my portfolio repository! This project showcases my work, skills, and projects in a visually appealing and interactive manner. It's built with modern web technologies to ensure a seamless user experience across various devices and screen sizes. 
 
-<p id="description">Welcome to My Portfolio Repository! This project showcases my work skills and projects in a visually appealing and interactive manner. It's built with modern web technologies to ensure a seamless user experience across various devices and screen sizes. This portfolio website is designed to provide a comprehensive overview of my professional background skills and projects. It includes sections for my bio skills projects and contact information all presented in a clean and modern layout.</p>
+## 🌐 Demo
 
-<h2>🚀 Demo</h2>
+Check out the live demo of my portfolio website:  
+[Live Demo](https://http://orionwave.me/My-Portfolio-New/t)
 
-[https://github.com/Vihanga-Gaganatharu/My-Portfolio-New.git](https://github.com/Vihanga-Gaganatharu/My-Portfolio-New.git)
+Or clone the repository to run it locally:  
+[GitHub Repository](https://github.com/Vihanga-Gaganatharu/My-Portfolio-New.git)
 
-  
-  
-<h2>🧐 Features</h2>
+## 🧐 Features
 
-Here're some of the project's best features:
+Here are some of the best features of the portfolio website:
 
-*   Responsive Design: Optimized for various devices and screen sizes.
-*   Interactive Elements: Engaging animations and transitions.
-*   Project Showcase: Detailed descriptions and images of my projects.
-*   Contact Form: Easy way for visitors to get in touch with me.
+- **Responsive Design**: Optimized for various devices and screen sizes.
+- **Interactive Elements**: Engaging animations and transitions that enhance the user experience.
+- **Project Showcase**: Detailed descriptions and images of my projects.
+- **Contact Form**: Easy way for visitors to get in touch with me.
 
-  
-<h2>💻 Built with</h2>
+## 💻 Built With
 
-Technologies used in the project:
+Technologies used in this project:
 
-*   HTML5
-*   CSS3
-*   JavaScript
-*   Firebase
-*   
+- **HTML5**: Structuring the content of the website.
+- **CSS3**: Styling the website with modern, responsive layouts.
+- **JavaScript**: Adding interactivity and dynamic functionality.
+- **Firebase**: Backend services for the contact form and authentication.
+
+## 🔧 Installation
+
+To run this project locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Vihanga-Gaganatharu/My-Portfolio-New.git
